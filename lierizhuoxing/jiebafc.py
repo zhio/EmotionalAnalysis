@@ -36,7 +36,6 @@ def num(lis):
     return result
 with open('juben.txt','r') as f:
     data = f.readlines()
-# pkuseg.test('juben.txt','output.txt',nthread=20)
 s = []
 a = 0
 for key,i in enumerate(data):
