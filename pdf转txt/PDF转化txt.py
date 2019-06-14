@@ -7,8 +7,8 @@ from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import PDFPageAggregator
 from pdfminer.layout import LAParams
 
-IN_PUT_PATH = '22.pdf'
-OUT_PUT = '火锅英雄.txt'
+IN_PUT_PATH = '肖申克的救赎.pdf'
+OUT_PUT = '肖申克的救赎.txt'
 fp = open(IN_PUT_PATH, 'rb')  # 打开一个pdf文档
 parser = PDFParser(fp)  # 创建一个与pdf文档关联的解析器对象
 doc = PDFDocument()  # 创建一个pdf文档对象, 用于存储文档结构
